@@ -101,7 +101,11 @@ export default function HomePage() {
   const [queryText, setQueryText] = useState("");
   const [commentText, setCommentText] = useState("");
   const [rating, setRating] = useState(5);
-  const [status, setStatus] = useState("Demo mode until Firebase keys are added.");
+  const [status, setStatus] = useState(
+    isFirebaseConfigured
+      ? "Firebase connected. Sign in to post, save, follow, rate, and comment."
+      : "Demo mode until Firebase keys are added."
+  );
   const [showComposer, setShowComposer] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   const [newSpot, setNewSpot] = useState({
@@ -128,6 +132,7 @@ export default function HomePage() {
         setProfile(null);
         setFollowingIds([]);
         setSavedIds([]);
+        setStatus("Firebase connected. Sign in to post, save, follow, rate, and comment.");
         return;
       }
 
