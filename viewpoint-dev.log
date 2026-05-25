@@ -1,0 +1,189 @@
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 4.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 17.5s (1518 modules)
+ ✓ Compiled in 1510ms (646 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+ GET / 200 in 289ms
+ ✓ Compiled in 1447ms (1518 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+ ○ Compiling /_not-found ...
+ ⨯ ./app/page.tsx:3:1
+Module not found: Can't resolve 'mapbox-gl/dist/mapbox-gl.css'
+[0m [90m 1 |[39m [32m"use client"[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [32m"mapbox-gl/dist/mapbox-gl.css"[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m"framer-motion"[39m[33m;[39m[0m
+[0m [90m 5 |[39m [36mimport[39m {[0m
+[0m [90m 6 |[39m   [33mBell[39m[33m,[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:3:1
+Module not found: Can't resolve 'mapbox-gl/dist/mapbox-gl.css'
+[0m [90m 1 |[39m [32m"use client"[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [32m"mapbox-gl/dist/mapbox-gl.css"[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m"framer-motion"[39m[33m;[39m[0m
+[0m [90m 5 |[39m [36mimport[39m {[0m
+[0m [90m 6 |[39m   [33mBell[39m[33m,[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:3:1
+Module not found: Can't resolve 'mapbox-gl/dist/mapbox-gl.css'
+[0m [90m 1 |[39m [32m"use client"[39m[33m;[39m[0m
+[0m [90m 2 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m [32m"mapbox-gl/dist/mapbox-gl.css"[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m"framer-motion"[39m[33m;[39m[0m
+[0m [90m 5 |[39m [36mimport[39m {[0m
+[0m [90m 6 |[39m   [33mBell[39m[33m,[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ GET / 500 in 123ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+ ✓ Compiled /_not-found in 7.1s (1744 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 69ms
+ GET /_next/static/webpack/b1fc1c87dad062cd.webpack.hot-update.json 404 in 3551ms
+ GET / 200 in 1324ms
+ GET /_next/static/chunks/main-app.js?v=1779676889297 404 in 83ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 53ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+aspromise@1.1.2' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+aspromise@1.1.2.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+aspromise@1.1.2' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+aspromise@1.1.2 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+aspromise@1.1.2.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+base64@1.1.2' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+base64@1.1.2.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+base64@1.1.2' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+base64@1.1.2 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+base64@1.1.2.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+codegen@2.0.5' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+codegen@2.0.5.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+codegen@2.0.5' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+codegen@2.0.5 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+codegen@2.0.5.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+eventemitter@1.1.1' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+eventemitter@1.1.1.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+eventemitter@1.1.1' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+eventemitter@1.1.1 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+eventemitter@1.1.1.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+float@1.0.2' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+float@1.0.2.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+float@1.0.2' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+float@1.0.2 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+float@1.0.2.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+inquire@1.1.2' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+inquire@1.1.2.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+inquire@1.1.2' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+inquire@1.1.2 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+inquire@1.1.2.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+aspromise@1.1.2' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+aspromise@1.1.2.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+aspromise@1.1.2' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+aspromise@1.1.2 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+aspromise@1.1.2.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\handle-externals.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/@protobufjs+base64@1.1.2' in C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server for build dependencies doesn't lead to expected result 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+base64@1.1.2.js', but to 'Error: Can't resolve './vendor-chunks/@protobufjs+base64@1.1.2' in 'C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/@protobufjs+base64@1.1.2 (expected C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\vendor-chunks\@protobufjs+base64@1.1.2.js)
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\handle-externals.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs C:\Users\sw_oc\OneDrive\Documents\Scenic Views\node_modules\.pnpm\next@14.2.35_react-dom@18.3.1_react@18.3.1__react@18.3.1\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ✓ Compiled in 1830ms (1758 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: Unable to snapshot resolve dependencies
+ GET / 200 in 467ms

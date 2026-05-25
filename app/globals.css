@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #050507;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(139, 233, 255, 0.12), transparent 28rem),
+    radial-gradient(circle at 95% 8%, rgba(255, 107, 107, 0.11), transparent 25rem),
+    #050507;
+  color: #f6f6f3;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.glass {
+  background: rgba(17, 20, 26, 0.74);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(22px);
+}
+
+.map-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.055) 1px, transparent 1px),
+    radial-gradient(circle at 20% 20%, rgba(199,255,79,0.12), transparent 13rem),
+    radial-gradient(circle at 78% 52%, rgba(139,233,255,0.13), transparent 15rem);
+  background-size: 42px 42px, 42px 42px, auto, auto;
+}
+
+.media-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 35%, rgba(0,0,0,0.82));
+  pointer-events: none;
+}
