@@ -124,7 +124,15 @@ export default function HomePage() {
 
   useEffect(() => {
     if (!auth || !db) return;
+    const liveAuth = auth;
     const liveDb = db;
+
+    import("firebase/auth")
+      .then(({ getRedirectResult }) => getRedirectResult(liveAuth))
+      .catch((error) => {
+        const code = typeof error === "object" && error && "code" in error ? String(error.code) : "unknown";
+        setStatus(`Firebase redirect error: ${code}. Check Authentication authorized domains and Google provider settings.`);
+      });
 
     return auth.onAuthStateChanged(async (currentUser) => {
       setUser(currentUser);
@@ -220,16 +228,11 @@ export default function HomePage() {
       return;
     }
     try {
-      const { signInWithPopup } = await import("firebase/auth");
-      await signInWithPopup(auth, googleProvider);
+      setStatus("Redirecting to Google sign-in...");
+      const { signInWithRedirect } = await import("firebase/auth");
+      await signInWithRedirect(auth, googleProvider);
     } catch (error) {
       const code = typeof error === "object" && error && "code" in error ? String(error.code) : "unknown";
-      if (code.includes("popup-blocked") || code.includes("popup-closed")) {
-        setStatus("Popup sign-in was blocked or closed. Redirecting to Google sign-in...");
-        const { signInWithRedirect } = await import("firebase/auth");
-        await signInWithRedirect(auth, googleProvider);
-        return;
-      }
       setStatus(`Firebase sign-in error: ${code}. Check Authentication authorized domains and Google provider settings.`);
     }
   };
